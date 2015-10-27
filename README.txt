@@ -15,7 +15,7 @@ require(path-to-file);
 
 then, you can convert the relative url to absolute url by calling:
 
-url_to_absolute( $baseUrl, $relativeUrl);
+AbsoluteUrl::url_to_absolute( $baseUrl, $relativeUrl);
 
 It return false on failure, otherwise returns the absolute url. If the $relativeUrl is a valid absolute url, it is returned without any modification.
 
